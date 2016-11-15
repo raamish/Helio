@@ -1,5 +1,7 @@
 package io.github.raamish.helio;
 
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,10 +18,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.content.ComponentName;
+import android.app.SearchManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -130,6 +135,69 @@ public class Main_Menu extends AppCompatActivity {
                     switch(firstWord) {
                         case "call":
                             callPhone(secondWord);
+                            break;
+                        case "open":
+////                            final String PACKAGE_NAME_GOOGLE_NOW = "com.google.android.googlequicksearchbox";
+////                            final String GOOGLE_NOW_SEARCH_ACTIVITY = ".SearchActivity";
+//////                          final String APP_NAME = "Open " +getString(R.string.app_name);
+////                            Log.d("taggg","chutiye");
+////                            final String APP_NAME = result.get(0);
+////                            final Intent startMyAppIntent = new Intent(Intent.ACTION_WEB_SEARCH);
+////                            startMyAppIntent.setComponent(new ComponentName(PACKAGE_NAME_GOOGLE_NOW,
+////                                    PACKAGE_NAME_GOOGLE_NOW + GOOGLE_NOW_SEARCH_ACTIVITY));
+////
+////                            startMyAppIntent.putExtra(SearchManager.QUERY, APP_NAME);
+////                            startMyAppIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//
+//                            try {
+//                                startActivity(startMyAppIntent);
+//                            } catch (final ActivityNotFoundException e) {
+//                                e.printStackTrace();
+//                            }
+
+
+                            //============================
+
+                            Intent intent = new Intent(Intent.ACTION_MAIN, null);
+                            intent.addCategory(Intent.CATEGORY_LAUNCHER);
+                            List<ResolveInfo> packageAppsList = this.getPackageManager().queryIntentActivities(intent, 0);
+                            int i;
+
+                            int counter = 0;
+                            for (ResolveInfo res : packageAppsList ){
+                                //print it to logger etc.
+                                if(secondWord.equals(res.loadLabel(getPackageManager()).toString())) {
+                                    break;
+                                }
+                                ++counter;
+                                Log.d("Tag2",res.loadLabel(getPackageManager()).toString());
+                            }//============================
+
+                            String finalPackageName="";
+                            for(i=1;i<packageAppsList.size();i++) {
+                                Object obj = packageAppsList.get(i);
+                                String temp = obj.toString().split(" ")[1];
+                                String temp2 = temp.split("/")[0];
+//                              Log.d("tag1", obj.toString());
+                                Log.d("tag1",temp2);
+                                if(i==counter)
+                                    finalPackageName = temp2;
+                            }
+
+                            PackageManager pm = getPackageManager();
+                            try
+                            {
+                                String packageName = finalPackageName;
+                                Intent launchIntent = pm.getLaunchIntentForPackage(packageName);
+                                startActivity(launchIntent);
+                            }
+                            catch (Exception e1)
+                            {
+                            }
+
+                            break;
+                        default:
+                            txtSpeechInput.setText("Sorry couldn't catch that command. Try again");
                     }
 
                 }
