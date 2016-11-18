@@ -3,6 +3,105 @@
 
     <item
         is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.2.1_7ef5b1908d22a3e08d44327781732fd2e0952ed8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\MotherFucker\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_5f84977168b855aecb331eb6ee4d373850dd6498\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_fddd4fe6c18fcdfe7061f420980e0c3c4eab0aa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_8c6eeb0e3b36a8aa8640665b79e5baa147b65b22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_639b5eca275f70bb24fe96fbe104a38417bbcf0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-21.0.3_6874b406e38e88c4d50f6a69f99000a86621d07f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_9ac3330857546884bb03083efacb68a39305dac0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_bff3ce74f13f1288afbecd72b7b907769ca0582d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0cb1b951269207aee83aa80a12c3e0c46b73b03e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_6d4493c6604bda69981a47733da628e6fefc0aaa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4344e499467aa25b840a1f8203086a1bb0733777\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -12,12 +111,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.2.1\jars\classes.jar"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\libs\commons-io-2.4.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.2.1_7ef5b1908d22a3e08d44327781732fd2e0952ed8\classes.dex" />
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-io-2.4_02394874cf97bde2f5c04d92dd2f345be483cefb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -39,15 +138,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_fddd4fe6c18fcdfe7061f420980e0c3c4eab0aa5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -57,12 +147,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_639b5eca275f70bb24fe96fbe104a38417bbcf0e\classes.dex" />
+        sha1="9b1a002a8b4bdd3d66cbadfdc4b16dfabd8e1042">
+        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.microsoft.projectoxford-vision-1.0.354_600c009d8229ee8003ddbb9ac9d25fcb8a5a259e\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -72,15 +162,6 @@
         revision="24.0.2"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
         <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_ffe8811de04179efc7ebd1cffd68dc0a0c2dbb0d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-21.0.3_6874b406e38e88c4d50f6a69f99000a86621d07f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -129,15 +210,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_9ac3330857546884bb03083efacb68a39305dac0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -147,20 +219,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_0cb1b951269207aee83aa80a12c3e0c46b73b03e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="247450655478a5966a53a4875a8400866cba0d8b">
+        sha1="da673b93bd030532ff5fe34b1d84d0f51f074d83">
         <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8d55176312cbef007ab2e4e1d66cea5d5522e56e\classes.dex" />
     </item>
     <item
@@ -171,15 +234,6 @@
         revision="24.0.2"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1939b838aa45559483ee9381097a45b31417c7b6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\AndroidStudioProjects\Helio\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="E:\AndroidStudioProjects\Helio\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_4344e499467aa25b840a1f8203086a1bb0733777\classes.dex" />
     </item>
 
 </items>

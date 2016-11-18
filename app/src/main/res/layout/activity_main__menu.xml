@@ -46,7 +46,8 @@
         android:layout_alignBottom="@+id/microphoneButton"
         android:layout_alignTop="@+id/microphoneButton"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/microphoneButton" />
+        android:layout_toEndOf="@+id/microphoneButton"
+        android:onClick="activityDescribe" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -63,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Camera"
+        android:text="Camera Facilities"
         android:textAlignment="center"
         android:id="@+id/textView3"
         android:layout_alignTop="@+id/textView2"

@@ -2,6 +2,10 @@
     <string name="app_name">Helio</string>
     <string name="title_activity_main_menu">MainMenu</string>
 
+    <string name="subscription_key">f4f8bcf071d4407f834f60494216d440</string>
+    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="add_subscription_key_tip">Please put your subscription key to source file \"app/res/values/strings.xml\" to enable Vision API calls.</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 

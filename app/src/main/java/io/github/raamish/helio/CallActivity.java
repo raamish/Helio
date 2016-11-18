@@ -11,15 +11,13 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.net.Inet4Address;
-
 public class CallActivity extends AppCompatActivity {
     String number;
     private Toolbar mToolbar;
     @Override
     protected  void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main__menu);
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main__menu);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
